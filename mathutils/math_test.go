@@ -39,7 +39,16 @@ func TestNegativePowOdd(t *testing.T) {
 		t.Fail()
 	}
 }
-unc TestNegativePowEven(t *testing.T) {
+func TestNegativePowEven(t *testing.T) {
+	n, err := Pow(-1, 12)
+	if err != nil {
+		t.Fail()
+	}
+	if n != 1 {
+		t.Fail()
+	}
+}
+func TestNegativePowZero(t *testing.T) {
 	n, err := Pow(-1, 12)
 	if err != nil {
 		t.Fail()
