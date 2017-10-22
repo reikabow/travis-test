@@ -28,5 +28,5 @@ func Pow_Imperative(x int, n int)(int, error) {
             
         }
         return result
+    }
 }
-	
