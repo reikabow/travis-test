@@ -1,3 +1,3 @@
-# travis-test
-#### This project was made in GO 
-Travis CI
+#README
+
+This project is written in Go. 
