@@ -1,3 +1,4 @@
-# travis-test
+#README
 
-Travis CI
+This project is written in Go. 
+
